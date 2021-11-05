@@ -5,7 +5,7 @@ import styles from "./childenExercise.module.css";
 
 function ListWrapper({ children }) {
     return React.Children.map(children, (child, index) => {
-        return <div className={styles.listItem}><span style={{ marginRight: "5px" }}>{index + 1}</span>{child}</div>;
+        return <div className={styles.listItem}><span>{index + 1}</span>{child}</div>;
     });
 }
 

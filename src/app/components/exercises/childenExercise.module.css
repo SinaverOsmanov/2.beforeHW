@@ -1,3 +1,7 @@
 .listItem div {
     display: inline-block;
 }
+
+.listItem span {
+    margin-right: 5px;
+}
